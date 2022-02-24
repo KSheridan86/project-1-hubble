@@ -308,6 +308,8 @@ p {
 #exo-planet-home {
     width: 100%;
 }
+
+/* images on the about page */
 #ring-nebula {
     height: 100%;
     width: 100%;
@@ -323,7 +325,6 @@ p {
     z-index: -1;
 }
 #eagle-nebula {
-    /* background-color: #000; */
     height: 100%;
     width: 100%;
     position: sticky;
@@ -340,3 +341,16 @@ p {
 #exo-planet-about {
     width: 100%;
 }
+
+/* images on the gallery page */
+#pics {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+    margin-top: -595px;
+  }
+  
+  #pics > img {
+    width: 100%;
+  }
