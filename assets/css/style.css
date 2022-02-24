@@ -170,3 +170,25 @@ html {
     border-bottom: 1px solid #444;
 }
 }
+
+/* Back to top button, button also informs users of the current page */
+
+.back-to-top {
+    color:#ccc;
+    font-size: 75%;
+    text-decoration: none;
+    float: right;
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 100px;
+    bottom: 20px;
+    place-self: end;
+    position: sticky;
+    z-index: 5;
+}
+  
+.back-to-top:hover {
+    color:#de8858;
+    box-shadow: 0px 0px 40px #ffcc66;
+}
