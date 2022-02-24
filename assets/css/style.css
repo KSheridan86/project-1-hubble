@@ -115,7 +115,7 @@ html {
 
 @media (max-width: 712px) {
 #logo {
-    font-size: 120%;
+    font-size: 130%;
     margin: 0;
 }
 .menu-button-container {
@@ -257,3 +257,34 @@ iframe {
     height: 300px;
     border: none;
 }
+
+/* Styling for the text, borders and scroll style of different pages */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    z-index: 3;
+    background-color: rgba(0, 0, 0);
+    margin: 8px;
+    color:#ccc
+}
+
+.home-scroll-style {
+    color: #ccc;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* margin-top: 10vh; */
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+  
+  .home-scroll-style > p {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  /* images */
+  /* image on the home page */
+  #exo-planet-home {
+    width: 100%;
+    /* margin-bottom: 5vh; */
+  }
