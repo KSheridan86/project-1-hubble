@@ -303,6 +303,68 @@ p {
     padding: 26px;
   }
 
+  .operation-style {
+    margin-left: -20px;
+    width: 100%;
+    color: #ccc;
+    padding: 10px;
+  }
+  
+  .operations-style h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color:#ccc;
+    padding: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .operations-style p {
+    margin: 15px;
+    margin-top: -5px;
+  }
+  
+  .operations-style li {
+    color: #80b0bb;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 0px;
+  }
+  
+  .operations-style > ul > p{
+    background-color: rgba(0, 0, 0, 0.0);
+    /* margin-left: -15px; */
+  }
+  
+  .operations-style > ul > li {
+    background-color: rgba(0, 0, 0, 0.0);
+    margin-left: 40px;
+  }
+  
+  .operations-style > p {
+    margin: 0px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .operations-style > ul {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  li ~ p {
+    margin-top: -1px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  li {
+    color:#ccc;
+  }
+
   /* images */
   /* image on the home page */
 #exo-planet-home {
@@ -341,6 +403,38 @@ p {
 #exo-planet-about {
     width: 100%;
 }
+#saturn5 {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+#pillar-jets {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+#exo-planet-operations {
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    margin-top: -5px;
+    margin-bottom: -34vh;
+    z-index: 5;
+  }
+  
+  #operations-footer-img {
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-bottom: -32vh;
+    z-index: -1;
+  }
 
 /* images on the gallery page */
 #pics {
