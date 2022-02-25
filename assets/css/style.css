@@ -465,8 +465,15 @@ p {
         
     }
 
-    @media screen and (min-width:412px) and (max-width:479px){
+    @media screen and (min-width:412px) and (max-width:470px){
     #logo {
         font-size: 180%;
     }    
+    }
+
+    @media screen and (min-width:478px) and (max-width:567) {
+    #logo {
+        font-size: 200%;
+        }
+        
     }
