@@ -752,6 +752,9 @@ footer > p {
     margin-top: 17vh;
     margin-left: 0%;
 }
+.social-media-operations i {
+    font-size: 250%;
+}
 .fa-brands {
     margin: 20px;
 }
