@@ -520,14 +520,42 @@ p {
     .social-media-about {
         margin-top: 10vh;
     }
-    .active {
-        color:#de8858;
+    .menu li a {
+        font-size: 115%;
     }
     }
-
-    @media screen and (min-width:478px) and (max-width:567) {
+@media screen and (min-width: 479px) and (max-width: 567px){
     #logo {
         font-size: 200%;
-        }
-        
     }
+    #hero-img {
+        height: 700px;
+        margin-top: 18vh;
+    }
+    .home-scroll-style {
+        margin-top: 24vh;
+    }
+    .about-scroll-style {
+        margin-top: 24vh;
+    }
+    .social-media-operations {
+        margin-top: 10vh;
+        margin-left: 0%;
+    }
+    .social-media {
+        margin-top: 14vh;
+        margin-left: 0%;
+    }
+    .social-media-about {
+        margin-top: 38vh;
+    }
+    .menu li a {
+        font-size: 125%;
+    }
+    .operations-style h4 {
+        font-weight: bold;
+    }
+    p {
+        font-size: 105%;
+    }
+}
