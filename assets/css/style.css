@@ -422,7 +422,7 @@ p {
   }
 
   /* media queries */
-  @media (max-width: 712px) {
+  @media (max-width: 834px) {
     .menu-button-container {
         display: flex;
     }
@@ -683,5 +683,85 @@ p {
 #saturn5 {
     margin-top: 15px;
 }
-
+}
+@media screen and (min-width: 711px) and (max-width: 834px){
+.menu li a {
+    font-size: 140%;
+}
+.home-scroll-style {
+    margin-top : 56vh;
+}
+.about-scroll-style {
+    margin-top: 56vh;
+}
+#hero-img {
+    height: 1100px;
+    margin-top: 27vh
+}
+p {
+    font-size: 135%;
+}
+#logo {
+    font-size: 290%;
+    margin-top: 15px;
+}
+.menu-button-container {
+    width: 70px;
+    margin-top: 20px;
+}
+.menu-button, 
+.menu-button::before,
+.menu-button::after {
+    width: 40px;
+}
+#menu-toggle:checked ~ .menu li {
+    height: 3.5em;
+} 
+.menu li a {
+    font-size: 160%;
+}
+.menu {
+    margin-top: 70px;
+}
+iframe {
+    width: 550px;
+    height: 550px;
+}
+footer ul {
+    margin-left: 0%;
+}
+footer > p {
+    font-size: 125%;
+}
+#footer-about > p {
+    font-size: 125%;
+}
+.social-media {
+    margin-top: 18vh;
+}
+.social-media i {
+    font-size: 250%;
+}
+.social-media-about {
+    margin-top: 75vh;
+}
+.social-media-about i {
+    font-size: 250%;
+}
+.social-media-operations {
+    margin-top: 17vh;
+    margin-left: 0%;
+}
+.fa-brands {
+    margin: 20px;
+}
+.back-to-top {
+    font-size: 125%;
+}
+#exo-planet-operations {
+    margin-bottom: -28vh;
+}
+#saturn5 {
+    margin-top: 20px;
+}
 }
