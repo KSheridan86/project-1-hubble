@@ -36,9 +36,9 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     color: #80b0bb;
     float: left;
-    font-size: 100%;
+    font-size: 140%;
     margin-left: 0px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-decoration: underline;
 }
 
@@ -143,11 +143,35 @@ footer {
 footer ul {
     margin-left: 22%;
 }
+footer > p {
+    color: #80b0bb;
+    margin: 0%;
+    font-size: 75%;
+    text-align:center;
+    text-decoration: underline;
+    border: 4px solid #000;
+    background-color: #000;
+}
+#footer-about {
+    height: 80px;
+}
   
- 
+#footer-about ul {
+    margin-left: 0%;
+}
+#footer-about > p {
+    color: #80b0bb;
+    margin: 0%;
+    font-size: 75%;
+    text-align:center;
+    text-decoration: underline;
+    border: 4px solid #000;
+    background-color: #000;
+}
 .social-media-operations {
     text-align: center;
     margin-left: 29%;
+    margin-top: 2.5vh;
 }
 .social-media-operations > li {
     display: inline-block;
@@ -172,20 +196,25 @@ footer ul {
     font-size: 160%;
     color: #333;
 }
+.social-media-about {
+    text-align: center;
+} 
+.social-media-about > li {
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+    margin-top: 120px;
+}
+.social-media-about i {
+    font-size: 160%;
+    color: #333;
+}
 .fa-brands:hover {
     border-radius: 50%;
     background: #de8858;
     box-shadow: 0px 0px 40px 15px #ffcc66;
 }
-footer > p {
-    color: #80b0bb;
-    margin: 0%;
-    font-size: 75%;
-    text-align:center;
-    text-decoration: underline;
-    border: 4px solid #000;
-    background-color: #000;
-}
+
   
 /* Embedded Video */
 
@@ -457,6 +486,12 @@ p {
     }
     #exo-planet-home {
         margin-bottom: 50px;
+    }
+    #pics {
+        margin-bottom: 8vh;
+    }
+    .social-media-about {
+        margin-top: 10vh;
     }
         
     }
