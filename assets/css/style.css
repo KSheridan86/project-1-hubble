@@ -464,3 +464,9 @@ p {
     }
         
     }
+
+    @media screen and (min-width:412px) and (max-width:479px){
+    #logo {
+        font-size: 180%;
+    }    
+    }
