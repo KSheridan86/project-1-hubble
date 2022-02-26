@@ -126,10 +126,12 @@ html {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 100px;
-    bottom: 20px;
+    bottom: 40px;
     place-self: end;
     position: sticky;
     z-index: 5;
+    margin-top: 100vh;
+    margin-bottom: -100vh;
 }
   
 .back-to-top:hover {
@@ -183,11 +185,12 @@ footer > p {
     margin-top: 120px;
 }
 .social-media-operations i {
-    font-size: 160%;
-    color: #333;
+    font-size: 180%;
+    color: #ccc;
 }
 .social-media {
     text-align: center;
+    margin-left: 22%;
 } 
 .social-media > li {
     display: inline-block;
@@ -196,8 +199,8 @@ footer > p {
     margin-top: 120px;
 }
 .social-media i {
-    font-size: 160%;
-    color: #333;
+    font-size: 180%;
+    color: #ccc;
 }
 .social-media-about {
     text-align: center;
@@ -209,8 +212,8 @@ footer > p {
     margin-top: 120px;
 }
 .social-media-about i {
-    font-size: 160%;
-    color: #333;
+    font-size: 180%;
+    color: #ccc;
 }
 .fa-brands:hover {
     border-radius: 50%;
