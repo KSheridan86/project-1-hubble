@@ -379,9 +379,9 @@ p {
     top: 0;
     z-index: -1;
 }
-#exo-planet-about {
+/* #exo-planet-about {
     width: 100%;
-}
+} */
 #saturn5 {
     width: 100%;
     position: sticky;
@@ -483,8 +483,8 @@ p {
         border-bottom: 1px solid #444;
     }
     }
-
-    @media screen and (min-width:358px) and (max-width:411px){
+/* 
+    @media screen and (min-width:358px) {
     #logo {
         font-size: 160%;
     }    
@@ -504,8 +504,8 @@ p {
         margin-top: 10vh;
     }
         
-    }
-
+    } */
+/* 
     @media screen and (min-width:411px) and (max-width:470px){
     #logo {
         font-size: 180%;
@@ -774,4 +774,4 @@ footer > p {
 #saturn5 {
     margin-top: 20px;
 }
-}
+} */
