@@ -10,31 +10,34 @@
     <title>Three Decades of Discovery</title>
 </head>
 <body>
+  <header>
+    <nav id="hamburger-menu">
+      <header>
+      <a href="index.html">
+          <h1 id="logo">Hubble Space Telescope</h1>
+      </a>
+      </header>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="operations.html">Operations</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
     <main>
         <!-- logo and hamburger menu -->
-        <section id="hamburger-menu">
-            <header>
-            <a href="index.html">
-                <h1 id="logo">Hubble Space Telescope</h1>
-            </a>
-            </header>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="operations.html">Operations</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
-            </ul>
-        </section>
+ 
         <!-- Hero image set to fixed position so the content flows over the top -->
         <div id="hero-outer">
             <div id="hero-img"></div>
         </div>
               <!-- Main content -->
-              <div id="pics">
+              <section aria-label="main-content" id="pics">
 
                 <!-- add alt text to all of these images -->
                 <img src="assets/images/antennae-galaxies.jpg">
@@ -57,7 +60,7 @@
                 <img src="assets/images/star-cluster-ngc-602.jpg">
                 <img src="assets/images/STSCI-H-p2016-slideshow-2400x1200.png">
             
-            </div>
+              </section>
         <!-- Back to top button, also doubles as a way for the user to know which page they are on -->
         <a class="back-to-top" href="#">↑ Gallery ↑</a>
     </main>

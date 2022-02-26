@@ -1,5 +1,9 @@
 /* nasa font from cdn fonts */
-@import url('http://fonts.cdnfonts.com/css/nasa');
+/* @import url('http://fonts.cdnfonts.com/css/nasa'); */
+@font-face {
+    font-family: 'Nasa';
+    src: url(../fonts/nasa.woff);
+}
 
 /* Basic page set up */
 
