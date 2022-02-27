@@ -24,7 +24,7 @@ html {
     z-index: -2;
 }
 #hero-img {
-    background-image: url(../images/hubble-hero-2.jpg);
+    background-image: url(../images/earth-hubble.jpg);
     height: 90%;
     width: 100%;
     background-position: center;
@@ -141,8 +141,8 @@ html {
     place-self: end;
     position: sticky;
     z-index: 5;
-    margin-top: 100vh;
-    margin-bottom: -100vh;
+    /* margin-top: 100vh;
+    margin-bottom: -100vh; */
     margin-right: 1rem;
 }
 .back-to-top:hover {
@@ -196,7 +196,7 @@ footer > p {
 .social-media > li {
     display: inline-block;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
     padding: .5rem;
 }
 .social-media i {
@@ -246,7 +246,7 @@ p {
     width: 100%;
     background-color: #000;
     margin-top: -27vh;
-    margin-bottom: 0rem;
+    margin-bottom: -.5rem;
     position: sticky;
     top: 0;
   }
