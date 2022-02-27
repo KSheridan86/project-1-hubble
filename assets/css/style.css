@@ -484,7 +484,7 @@ p {
          margin-bottom: 6rem;
      }
      .social-media {
-         margin-top: -6rem;
+         margin-top: -7rem;
      }
      #pics {
          margin-top: -25rem;
@@ -492,6 +492,64 @@ p {
      }
      #operations-footer-img {
          margin-bottom: -40vh
+     }
+ }
+
+ @media screen and (min-width:1025px) {
+     html {
+         font-size: 24px;
+     }
+     #hero-outer {
+         height: 600px;
+     }
+     #hero-img {
+        background-image: url(../images/hubble-space-telescope-best-pictures.jpg);
+        height: 90%;
+        width: 100%;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        margin-top: 10vh;
+     }
+     .menu li a {
+         color:#80b0bb;
+         text-decoration: none;
+     }
+     .active {
+         border-bottom: 3px solid #80b0bb;
+     }
+     #ring-nebula, #lagoon-nebula, #eagle-nebula, #moon {
+         display: none;
+     }
+     .social-media i {
+         color:#ccc
+     }
+     .flex-container {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         background-color: rgba(0, 0, 0, 0.5);
+         padding: 2rem;
+         justify-content: center;
+     }
+     .flex-item {
+        width: 48%;
+        border: 1px solid #80b0bb;
+        border-radius: 10%;
+        margin: .25rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.2);
+     }
+     .back-to-top {
+         margin-top: 0;
+         margin-bottom: 0;
+     }
+     .social-media {
+         margin-left: 6.5rem;
+         text-align: center;
      }
  }
 
