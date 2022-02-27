@@ -34,18 +34,18 @@ html {
     z-index: -1;
     top: 0;
     margin-top: 10vh;
-    animation-name: motion;
+    /* animation-name: motion;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
-@keyframes motion {
+/* @keyframes motion {
     from {
         transform: scale(1);
     }
     to {
         transform: scale(1.1);
     }
-}
+} */
 /* Logo and hamburger menu */
 #logo {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
@@ -186,7 +186,7 @@ footer > p {
 }
 .social-media-operations i {
     font-size: 2rem;
-    color: #ccc;
+    color: #000;
     margin-top: 2rem;
 }
 .social-media {
@@ -201,7 +201,7 @@ footer > p {
 }
 .social-media i {
     font-size: 2rem;
-    color: #ccc;
+    color: #000;
 }
 .fa-brands:hover {
     border-radius: 50%;
@@ -387,7 +387,7 @@ p {
     width: 100%;
 }
 
-  /* media queries */
+  /* media query for hamburger menu */
 @media (max-width: 834px) {
     .menu-button-container {
         display: flex;
@@ -444,15 +444,31 @@ p {
     }
 /* Small mobile phones */
     @media screen and (max-width :340px) {
-        /* #logo {
-            font-size: 1.2rem;
-        } */
-
         html {
             font-size: 14px;
         }
         #pics {
             margin-top: -57rem;   
+        }
+        .social-media {
+            margin-top: 1rem;
+        }
+    }
+
+    /* Large mobile phones */
+    @media screen and (min-width:370px) {
+        #hero-img {
+            height: 80%;
+            margin-top: 10rem;
+        }
+        .home-scroll-style {
+            margin-top: -5vh;
+        }
+        .about-scroll-style {
+            margin-top: -5vh;
+        }
+        .social-media {
+            margin-top: 1rem;
         }
     }
     /* Small Tablets */
@@ -468,13 +484,14 @@ p {
          margin-bottom: 6rem;
      }
      .social-media {
-         margin-top: -2rem;
+         margin-top: -6rem;
      }
      #pics {
          margin-top: -25rem;
+         column-count: 2;
      }
-     #too-big {
-         width: 0%
+     #operations-footer-img {
+         margin-bottom: -40vh
      }
  }
 
