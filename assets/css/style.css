@@ -551,6 +551,13 @@ p {
          margin-left: 6.5rem;
          text-align: center;
      }
+     .social-media > li {
+         margin-top: 5rem; 
+     }
+     footer > p {
+         font-size: 1.1rem;
+         margin-left: 5rem;
+     }
  }
 
 
