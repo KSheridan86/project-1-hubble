@@ -137,12 +137,12 @@ html {
     background: rgba(0, 0, 0, 0.5);
     padding: .5rem;
     border-radius: 5rem;
-    bottom: 2.9rem;
+    bottom: 6rem;
     place-self: end;
     position: sticky;
     z-index: 5;
-    /* margin-top: 100vh;
-    margin-bottom: -100vh; */
+    margin-top: 100vh;
+    margin-bottom: -100vh;
     margin-right: 1rem;
 }
 .back-to-top:hover {
@@ -153,17 +153,26 @@ html {
 /* footer */
 footer {
     height: 5rem;
+    padding-top: 3px; 
+    position: fixed;
+    /* height: 20px; */
+    margin-bottom: 1rem;
+    margin-top: 140vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
 }
-footer ul {
+/* footer ul {
     margin-left: 2rem;
-}
+} */
 footer > p {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
     color: #80b0bb;
     margin: 0rem;
     font-size: .9rem;
     text-align:center;
-    border: .25rem solid #000;
+    border: .5rem solid #000;
     background-color: #000;
     margin-bottom: -.5rem;
 }
@@ -173,9 +182,8 @@ footer > p {
 #footer-about ul {
     margin-left: 0rem;
 }
-.social-media-operations {
+/* .social-media-operations {
     text-align: center;
-    /* margin-left: 3.5rem; */
     margin-top: 2.5vh;
 }
 .social-media-operations > li {
@@ -186,22 +194,22 @@ footer > p {
 }
 .social-media-operations i {
     font-size: 2rem;
-    color: #000;
+    color: #ccc;
     margin-top: 2rem;
-}
+} */
 .social-media {
-    text-align: right;
+    text-align: center;
     margin-bottom: 0rem;
 } 
 .social-media > li {
     display: inline-block;
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 0rem;
     padding: .5rem;
 }
 .social-media i {
-    font-size: 2rem;
-    color: #000;
+    font-size: 1.9rem;
+    color: #333;
 }
 .fa-brands:hover {
     border-radius: 50%;
@@ -246,7 +254,7 @@ p {
     width: 100%;
     background-color: #000;
     margin-top: -27vh;
-    margin-bottom: -.5rem;
+    margin-bottom: -.25rem;
     position: sticky;
     top: 0;
   }
@@ -453,6 +461,15 @@ p {
         .social-media {
             margin-top: 1rem;
         }
+        .home-scroll-style {
+            margin-top: -21rem;
+        }
+        .about-scroll-style {
+            margin-top: -21rem;
+        }
+        .social-media {
+            margin-bottom: -1rem;
+        }
     }
 
     /* Large mobile phones */
@@ -468,7 +485,11 @@ p {
             margin-top: -5vh;
         }
         .social-media {
-            margin-top: 1rem;
+            /* margin-top: 10rem; */
+            text-align: center;
+        }
+        footer ul {
+            margin-left: 0rem;
         }
     }
     /* Small Tablets */
