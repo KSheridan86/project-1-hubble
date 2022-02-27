@@ -50,7 +50,7 @@ html {
 #logo {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: #80b0bb;
+    color: #ccc;
     float: left;
     margin-left: -.3rem;
 }
@@ -87,7 +87,7 @@ html {
 .menu-button-container {
     display: none;
     height: 100%;
-    width: 2rem;
+    width: 1.7rem;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +100,10 @@ html {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #80b0bb;
+    background-color: #ccc;
     position: absolute;
     height: 0.25rem;
-    width: 1.8rem;
+    width: 1.6rem;
     transition: transform 600ms cubic-bezier(0.25, 1, 0.25, 1);
     border-radius: 15%;
 }
@@ -137,7 +137,7 @@ html {
     background: rgba(0, 0, 0, 0.5);
     padding: .5rem;
     border-radius: 5rem;
-    bottom: 6rem;
+    bottom: 5rem;
     place-self: end;
     position: sticky;
     z-index: 5;
@@ -155,9 +155,8 @@ footer {
     height: 5rem;
     padding-top: 3px; 
     position: fixed;
-    /* height: 20px; */
-    margin-bottom: 1rem;
-    margin-top: 140vh;
+    /* margin-top: 100vh;
+    margin-bottom: -100vh; */
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -200,6 +199,7 @@ footer > p {
 .social-media {
     text-align: center;
     margin-bottom: 0rem;
+    background-color: #000;
 } 
 .social-media > li {
     display: inline-block;
@@ -209,7 +209,7 @@ footer > p {
 }
 .social-media i {
     font-size: 1.9rem;
-    color: #333;
+    color: #ccc;
 }
 .fa-brands:hover {
     border-radius: 50%;
@@ -230,7 +230,7 @@ iframe {
 /* Styling for the text, borders and scroll style of different pages */
 p {
     font-family: Arial, Helvetica, sans-serif;
-    padding: .5rem;
+    padding: 0rem;
     z-index: 3;
     background-color: rgba(0, 0, 0);
     margin: .5rem;
@@ -433,7 +433,7 @@ p {
         border-bottom:1px solid #ccc;
     }
     #menu-toggle:checked ~ .menu li a {
-        color: #80b0bb;
+        color: #ccc;
     }
     #menu-toggle:checked ~ .menu li a:hover {
         color:#de8858;
@@ -490,6 +490,9 @@ p {
         }
         footer ul {
             margin-left: 0rem;
+        }
+        #logo {
+            font-size: 1.6rem;
         }
     }
     /* Small Tablets */
