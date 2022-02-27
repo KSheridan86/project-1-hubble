@@ -158,9 +158,10 @@ footer ul {
     margin-left: 2rem;
 }
 footer > p {
+    font-family: 'Nasa', Arial, Helvetica, sans-serif;
     color: #80b0bb;
     margin: 0rem;
-    font-size: .75rem;
+    font-size: .9rem;
     text-align:center;
     border: .25rem solid #000;
     background-color: #000;
@@ -170,15 +171,6 @@ footer > p {
 }
 #footer-about ul {
     margin-left: 0rem;
-}
-#footer-about > p {
-    color: #80b0bb;
-    margin: 0rem;
-    font-size: .75rem;
-    text-align:center;
-    text-decoration: underline;
-    border: .25rem solid #000;
-    background-color: #000;
 }
 .social-media-operations {
     text-align: center;
@@ -239,7 +231,7 @@ p {
     height: 100%;
     /* width: 100%; */
     background-color: rgba(0, 0, 0, 0.8);
-    margin-top: -32vh;
+    margin-top: -27vh;
     margin-bottom: 0rem;
     padding: .5rem;
   }
@@ -251,7 +243,7 @@ p {
     height: 100%;
     /* width: 100%; */
     background-color: #000;
-    margin-top: -32vh;
+    margin-top: -27vh;
     margin-bottom: 0rem;
     position: sticky;
     top: 0;
