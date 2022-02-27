@@ -52,7 +52,7 @@ html {
     font-size: 1.5rem;
     color: #80b0bb;
     float: left;
-    margin-left: -.2rem;
+    margin-left: -.3rem;
 }
 .active {
     border-bottom:1px solid #80b0bb;
@@ -103,7 +103,7 @@ html {
     background-color: #80b0bb;
     position: absolute;
     height: 0.25rem;
-    width: 2rem;
+    width: 1.8rem;
     transition: transform 600ms cubic-bezier(0.25, 1, 0.25, 1);
     border-radius: 15%;
 }
@@ -187,6 +187,7 @@ footer > p {
 .social-media-operations i {
     font-size: 2rem;
     color: #ccc;
+    margin-top: 2rem;
 }
 .social-media {
     text-align: right;
@@ -195,7 +196,7 @@ footer > p {
 .social-media > li {
     display: inline-block;
     text-align: center;
-    margin-top: 11rem;
+    margin-top: 10rem;
     padding: .5rem;
 }
 .social-media i {
@@ -229,7 +230,7 @@ p {
 }
 .home-scroll-style {
     color: #ccc;
-    height: 100%;
+    height: 90%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: -27vh;
@@ -241,7 +242,7 @@ p {
   }
   .about-scroll-style {
     color: #ccc;
-    height: 100%;
+    height: 90%;
     width: 100%;
     background-color: #000;
     margin-top: -27vh;
@@ -441,6 +442,43 @@ p {
         border-bottom: 1px solid #444;
     }
     }
+/* Small mobile phones */
+    @media screen and (max-width :340px) {
+        /* #logo {
+            font-size: 1.2rem;
+        } */
+
+        html {
+            font-size: 14px;
+        }
+        #pics {
+            margin-top: -57rem;   
+        }
+    }
+    /* Small Tablets */
+ @media screen and (min-width:719px) {
+     html {
+         font-size: 32px;
+     }
+     .home-scroll-style {
+         margin-top: 17vh;
+     }
+     .about-scroll-style {
+         margin-top: 17vh;
+         margin-bottom: 6rem;
+     }
+     .social-media {
+         margin-top: -2rem;
+     }
+     #pics {
+         margin-top: -25rem;
+     }
+     #too-big {
+         width: 0%
+     }
+ }
+
+
 
     /* @media screen and (min-width: 400px) {
         html {
