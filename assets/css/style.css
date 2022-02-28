@@ -692,10 +692,23 @@ p {
          margin-top: 8rem;
          margin-bottom: -1rem;
      }
-     iframe {
-         width: 100%;
+     .home-scroll-style {
+         font-size: 1.2rem;
      }
- }
+     .home-scroll-style > p {
+         font-size: 1.2rem;
+     }
+     .home-scroll-style > h1 {
+         margin-bottom: 2rem;;
+     }
+     #vid {
+         margin-bottom: 5rem;
+     }
+     iframe {
+         width: 50%;
+         height: 400px;
+     }
+ 
 
 
 
