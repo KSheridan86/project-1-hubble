@@ -34,25 +34,31 @@ html {
     z-index: -1;
     top: 0;
     margin-top: 10vh;
-    /* animation-name: motion;
-    animation-duration: 3s;
-    animation-fill-mode: forwards; */
 }
-/* @keyframes motion {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-} */
-/* Logo and hamburger menu */
+#hero-img-about {
+    background-image: url(../images/about-2.jpg);
+    height: 90%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    margin-top: 10vh;
+}
+
 #logo {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: #ccc;
     float: left;
     margin-left: -.3rem;
+    margin-top: .4rem;
+}
+#logo:hover {
+    color:#80b0bb;
+    box-shadow: #80b0bb;
 }
 .active {
     border-bottom:1px solid #80b0bb;
@@ -92,6 +98,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: .1rem;
 }
 #menu-toggle {
     display: none;
@@ -132,22 +139,22 @@ html {
     color:#ccc;
     font-size: 85%;
     text-decoration: none;
-    float: right;
+    /* float: right; */
     font-family: sans-serif;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     padding: .5rem;
     border-radius: 5rem;
-    bottom: 5rem;
+    bottom: 4.2rem;
     place-self: end;
     position: sticky;
     z-index: 5;
-    margin-top: 100vh;
-    margin-bottom: -100vh;
-    margin-right: 1rem;
+    /* margin-top: 100vh;
+    margin-bottom: -100vh; */
+    /* margin-right: 9rem; */
 }
 .back-to-top:hover {
-    color:#de8858;
-    box-shadow: 0rem 0rem 2.5rem #ffcc66;
+    color:#80b0bb;
+    box-shadow: 0rem 0rem 2.5rem #80b0bb;
 }
 
 /* footer */
@@ -167,7 +174,7 @@ footer {
 } */
 footer > p {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
-    color: #80b0bb;
+    color: #ccc;
     margin: 0rem;
     font-size: .9rem;
     text-align:center;
@@ -198,7 +205,7 @@ footer > p {
 } */
 .social-media {
     text-align: center;
-    margin-bottom: 0rem;
+    margin-bottom: -.9rem;
     background-color: #000;
 } 
 .social-media > li {
@@ -213,8 +220,8 @@ footer > p {
 }
 .fa-brands:hover {
     border-radius: 50%;
-    background: #de8858;
-    box-shadow: 0rem 0rem 2.5rem 1rem #ffcc66;
+    background: #80b0bb;
+    box-shadow: 0rem 0rem 2.5rem .5rem #80b0bb;
 }
 
 /* Embedded Video */
@@ -436,7 +443,7 @@ p {
         color: #ccc;
     }
     #menu-toggle:checked ~ .menu li a:hover {
-        color:#de8858;
+        color:#80b0bb;
     }
     .menu > li {
         display: flex;
