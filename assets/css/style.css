@@ -15,7 +15,7 @@
 html {
     background-color: #000;
     font-size: 16px;
-  }
+}
 
 /* Hero image */
 #hero-outer {
@@ -404,7 +404,7 @@ p {
     line-height: 0;
     column-count: 1;
     column-gap: 0rem;
-    margin-top: -50rem;
+    margin-top: -46rem;
     margin-bottom: -.5rem;
 }
 #pics > img {
@@ -475,13 +475,13 @@ p {
             margin-top: -57rem;   
         }
         .social-media {
-            margin-top: 1rem;
+            margin-top: 0rem;
         }
         .home-scroll-style {
-            margin-top: -21rem;
+            margin-top: -19rem;
         }
         .about-scroll-style {
-            margin-top: -21rem;
+            margin-top: -19rem;
         }
         .social-media {
             margin-bottom: -1rem;
@@ -491,8 +491,11 @@ p {
     /* Large mobile phones */
     @media screen and (min-width:370px) {
         #hero-img {
-            height: 90%;
+            height: 600px;
             margin-top: 10rem;
+        }
+        #hero-img-about {
+            height: 750px;
         }
         .home-scroll-style {
             margin-top: -5vh;
@@ -510,6 +513,9 @@ p {
         #logo {
             font-size: 1.6rem;
         }
+        .operations-style {
+            margin-top: 2rem;
+        }
     }
     /* Small Tablets */
  @media screen and (min-width:719px) {
@@ -517,14 +523,14 @@ p {
          font-size: 32px;
      }
      .home-scroll-style {
-         margin-top: 17vh;
+         margin-top: 5rem;
      }
      .about-scroll-style {
-         margin-top: 17vh;
-         margin-bottom: 6rem;
+         margin-top: 5rem;
+         margin-bottom: 0rem;
      }
      .social-media {
-         margin-top: -7rem;
+         margin-top: 0rem;
      }
      #pics {
          margin-top: -25rem;
@@ -533,6 +539,20 @@ p {
      #operations-footer-img {
          margin-bottom: -40vh
      }
+     #hero-outer {
+         height: 25rem;
+     }
+     #hero-img {
+         height: 28rem;
+         margin-top: 5rem;
+     }
+     #hero-img-about {
+         height: 33rem;
+         margin-top: 0rem;
+     }
+     .operations-style {
+         margin-top: 3rem;
+     }
  }
 
  @media screen and (min-width:1025px) {
@@ -540,11 +560,11 @@ p {
          font-size: 24px;
      }
      #hero-outer {
-         height: 600px;
+         height: 750px;
      }
      #hero-img {
         background-image: url(../images/hubble-space-telescope-best-pictures.jpg);
-        height: 90%;
+        height: 600px;
         width: 100%;
         /* background-position: center; */
         background-repeat: no-repeat;
