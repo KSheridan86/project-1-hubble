@@ -133,6 +133,18 @@ html {
     margin-top: 0rem;
     transform: rotate(-45deg);
 }
+#about-header {
+    color:#ccc;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#operations-header {
+    color:#ccc;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
 
 /* Back to top button, button also informs users of the current page */
 .back-to-top {
@@ -251,7 +263,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: -27vh;
     margin-bottom: 0rem;
-    padding: .5rem;
+    padding: 1rem;
   }
   .home-scroll-style > p {
     background-color: rgba(0, 0, 0, 0);
@@ -270,7 +282,7 @@ p {
   .about-p-styling {
     color: #ccc;
     font-size: 1rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     margin: 0rem;
     top: 0;
     bottom: 0;
@@ -516,6 +528,9 @@ p {
         .operations-style {
             margin-top: 2rem;
         }
+        #pics {
+            column-count: 2;
+        }
     }
     /* Small Tablets */
  @media screen and (min-width:719px) {
@@ -557,32 +572,62 @@ p {
 
  @media screen and (min-width:1025px) {
      html {
-         font-size: 24px;
+         font-size: 30px;
+     }
+     #hamburger-menu {
+         position: fixed;
+     }
+     #about-header {
+         display: none;
      }
      #hero-outer {
          height: 750px;
      }
-     #hero-img {
-        background-image: url(../images/hubble-space-telescope-best-pictures.jpg);
-        height: 600px;
-        width: 100%;
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: fixed;
-        z-index: -1;
-        top: 0;
-        margin-top: 10vh;
+     #hero-img-about {
+        margin-top: 3rem;
+     }
+     #laptop-header {
+         color:#ccc;
+         text-align: center;
+         background-color: rgba(0, 0, 0, 0.8);
+         padding-top: 1.5rem;
+         padding-bottom: 0rem;
+         margin-bottom: -8rem;
+         margin-top: 8rem;
+     }
+     #pics {
+         column-count: 4;
      }
      .menu li a {
-         color:#80b0bb;
+         color:#ccc;
          text-decoration: none;
+         margin-left: 1rem;
      }
      .active {
-         border-bottom: 3px solid #80b0bb;
+         border-bottom: 3px solid #ccc;
      }
-     #ring-nebula, #lagoon-nebula, #eagle-nebula, #moon {
+    #operations-footer-img {
          display: none;
+     }
+     #lagoon-nebula {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+     } 
+     #eagle-nebula {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+     } 
+     #moon {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+     } 
+     #ring-nebula {
+         position: relative;
+         height: 21rem;
+         width: 21rem;
      }
      .social-media i {
          color:#ccc
@@ -591,10 +636,18 @@ p {
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
-         background-color: rgba(0, 0, 0, 0.5);
+         background-color: rgba(0, 0, 0, 0.8);
          padding: 2rem;
          justify-content: center;
      }
+     .flex-container :nth-child(1) {order: -7;}
+     .flex-container :nth-child(2) {order: -1;}
+     .flex-container :nth-child(3) {order: -8;}
+     .flex-container :nth-child(4) {order: -6;}
+     .flex-container :nth-child(5) {order: -5;}
+     .flex-container :nth-child(6) {order: -2;}
+     .flex-container :nth-child(7) {order: -4;}
+     .flex-container :nth-child(8) {order: -3;}
      .flex-item {
         width: 48%;
         border: 1px solid #80b0bb;
@@ -604,19 +657,43 @@ p {
         background-color: rgba(0, 0, 0, 0.2);
      }
      .back-to-top {
-         margin-top: 0;
-         margin-bottom: 0;
+         color:#ccc;
+         font-size: 85%;
+         text-decoration: none;
+         font-family: sans-serif;
+         background: rgba(0, 0, 0);
+         padding: .5rem;
+         border-radius: 5rem;
+         position: sticky;
+         z-index: 5;
      }
      .social-media {
-         margin-left: 6.5rem;
+         /* margin-left: 6.5rem; */
          text-align: center;
+         /* margin-bottom: -1.1rem; */
+         }
      }
      .social-media > li {
-         margin-top: 5rem; 
+         margin-top: .5rem; 
+     }
+     #footer {
+        font-size: 85%;
+        text-decoration: none;
+        font-family: sans-serif;
+        border-radius: 5rem;
+        position: sticky;
+        z-index: 5;
      }
      footer > p {
          font-size: 1.1rem;
-         margin-left: 5rem;
+        padding-bottom: .6rem;
+     }
+     .about-scroll-style {
+         margin-top: 8rem;
+         margin-bottom: -1rem;
+     }
+     iframe {
+         width: 100%;
      }
  }
 
