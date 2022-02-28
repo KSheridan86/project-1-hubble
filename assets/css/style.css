@@ -570,13 +570,13 @@ p {
      }
  }
 
- @media screen and (min-width:1025px) {
-     html {
-         font-size: 30px;
-     }
-     #hamburger-menu {
-         position: fixed;
-     }
+@media screen and (min-width:1025px) {
+html {
+     font-size: 30px;
+}
+#hamburger-menu {
+    position: fixed;
+}
      #about-header {
          display: none;
      }
@@ -672,7 +672,6 @@ p {
          text-align: center;
          /* margin-bottom: -1.1rem; */
          }
-     }
      .social-media > li {
          margin-top: .5rem; 
      }
@@ -708,7 +707,7 @@ p {
          width: 50%;
          height: 400px;
      }
- 
+    }
 
 
 
