@@ -19,13 +19,13 @@ html {
 
 /* Hero image */
 #hero-outer {
-    height: 800px;
+    height: 750px;
     width: 100%;
     z-index: -2;
 }
 #hero-img {
     background-image: url(../images/earth-hubble.jpg);
-    height: 90%;
+    height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ html {
 }
 #hero-img-about {
     background-image: url(../images/about-2.jpg);
-    height: 90%;
+    height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,6 +228,7 @@ footer > p {
 #vid {
     background-color: #000;
     text-align: center;
+    margin-bottom: -.5rem;
 }
 iframe {
     height: 20rem;
@@ -285,6 +286,7 @@ p {
   .operations-style h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
+    font-size: 1.1rem;
     color:#ccc;
     padding: 1.5rem;
     margin-bottom: 0px;
@@ -306,12 +308,15 @@ p {
   }
   .operations-style > ul > p{
     background-color: rgba(0, 0, 0, 0.0);
+    font-size: 1rem;
   }
   .operations-style > ul > li {
     background-color: rgba(0, 0, 0, 0.0);
     margin-left: 2.5rem;
+    font-size: 1.1rem;
   }
   .operations-style > p {
+    font-size: 1rem;
     margin: 0rem;
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.8);
@@ -400,6 +405,7 @@ p {
     column-count: 1;
     column-gap: 0rem;
     margin-top: -50rem;
+    margin-bottom: -.5rem;
 }
 #pics > img {
     width: 100%;
