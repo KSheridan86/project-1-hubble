@@ -31,11 +31,17 @@
   </nav>
   </header>
     <main>
+      <!-- Hero image set to fixed position so the content flows over the top -->
+      <!-- <div id="hero-outer">
+        <div id="hero-img-operations"></div>
+      </div> -->
         <!-- Main content -->
-        <section aria-label="main-content" class="operations-style">
-          <img src="assets/images/discovery-launchpad.jpg" id="saturn5" alt="picture of the saturn5 rocket sitting on the launch pad in cape canaveral">
+        
+        <section aria-label="main-content" class="operations-style flex-container">
+          <h1 id="operations-header-laptop">Operating the Telescope</h1>
+          <img src="assets/images/discovery-launchpad.jpg" class="flex-item" id="saturn5" alt="picture of the saturn5 rocket sitting on the launch pad in cape canaveral">
             <h1 id="operations-header">Operating the Telescope</h1>
-            <p id="operations-first-paragraph">
+            <p id="operations-first-paragraph" class="flex-item">
                 Behind Hubble’s captivating images and groundbreaking science is a team of people who control the telescope, 
                 ensure its health and safety, and innovate ways to keep it at top performance more than three decades after its launch. 
                 This group of engineers, scientists, and operators at NASA’s Goddard Space Flight Center work together to monitor Hubble 
@@ -43,8 +49,7 @@
                 They perform their work in specialized facilities that provide the tools and equipment needed to operate this 
                 great observatory and continue its legacy of success.
             </p>
-            <img src="assets/images/pillar-jets-wide.jpg" alt="colorful picture of the ring nubula" id="pillar-jets">
-
+            <img src="assets/images/pillar-jets-wide.jpg" class="flex-item" alt="colorful picture of the ring nubula" id="pillar-jets">
             <h4>Hubble is operated by commands from the ground. Several spacecraft systems are in place to keep Hubble functioning smoothly.</h4>
             <ul>
                 <li>Communications Antennas</li>
