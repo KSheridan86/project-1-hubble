@@ -75,6 +75,7 @@ html {
     position: sticky;
     top: 0;
     z-index: 10;
+    margin-top: .2rem;
 }
 .menu {
     display: flex;
@@ -137,6 +138,7 @@ html {
     color:#ccc;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 1rem;
 }
 
 #operations-header {
@@ -264,6 +266,7 @@ p {
     margin-top: -27vh;
     margin-bottom: 0rem;
     padding: 1rem;
+    text-align: center;
   }
   .home-scroll-style > p {
     background-color: rgba(0, 0, 0, 0);
@@ -286,16 +289,16 @@ p {
     margin: 0rem;
     top: 0;
     bottom: 0;
-    /* margin-top: -6px; */
+    text-align: center;
     padding: 1.5rem;
-  }
-  .operation-style {
-    margin-left: -1.25rem;
-    width: 90%;
+}
+.operations-style {
     color: #ccc;
-    padding: .5rem;
-  }
-  .operations-style h4 {
+}
+#operations-first-paragraph {
+    text-align: center;
+}
+.operations-style h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size: 1.1rem;
