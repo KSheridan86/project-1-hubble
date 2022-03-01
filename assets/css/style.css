@@ -51,8 +51,17 @@ html {
     margin-top: 10vh;
 }
 #hero-img-operations {
-    display: none;
-}
+    background-image: url(../images/discovery-launchpad.jpg);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    z-index: -1;
+    top: 0;
+    /* margin-top: 10vh; */
+    }
 #logo {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
@@ -211,7 +220,7 @@ footer {
 /* footer ul {
     margin-left: 2rem;
 } */
-footer>p {
+footer > p {
     font-family: 'Nasa', Arial, Helvetica, sans-serif;
     color: #ccc;
     margin: 0rem;
@@ -331,6 +340,7 @@ p {
 
 .operations-style {
     color: #ccc;
+    margin-top: -24rem;
 }
 
 #operations-first-paragraph {
@@ -397,6 +407,9 @@ li {
 #laptop-header {
     display: none;
 }
+.flex-container-operations {
+    display: none;
+}
 /* images */
 
 /* images on the about page */
@@ -437,13 +450,10 @@ li {
 }
 
 /* images on the operations page */
-#saturn5 {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: -1;
-}
 
+#discovery {
+ display: none;
+}
 #pillar-jets {
     width: 100%;
     position: sticky;
@@ -475,7 +485,7 @@ li {
 #pics {
     clear: both;
     line-height: 0;
-    column-count: 1;
+    column-count: 2;
     column-gap: 0rem;
     margin-top: -46rem;
     margin-bottom: -.5rem;
@@ -559,6 +569,7 @@ li {
 
     #pics {
         margin-top: -57rem;
+        column-count: 1;
     }
 
     .social-media {
@@ -572,7 +583,9 @@ li {
     .about-scroll-style {
         margin-top: -19rem;
     }
-
+.operations-style{
+    margin-top: -28rem;
+}
     .social-media {
         margin-bottom: -1rem;
     }
@@ -611,12 +624,12 @@ li {
     }
 
     .operations-style {
-        margin-top: 2rem;
+        margin-top: -22rem;
     }
 
-    #pics {
+    /* #pics {
         column-count: 2;
-    }
+    } */
 }
 
 /* Small Tablets */
@@ -668,21 +681,14 @@ li {
 
 @media screen and (min-width:1025px) {
     html {
-        font-size: 30px;
+        font-size: 20px;
     }
-    #hero-img-operations {
-        background-image: url(../images/mission-control.jpg);
-    height: 90%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    margin-top: 10vh;
+    #logo {
+        margin-left: 1rem;
     }
-
+    .menu {
+        padding-left: 20rem;
+    }
     #hamburger-menu {
         position: fixed;
         margin-top: 0rem;
@@ -691,21 +697,39 @@ li {
     #about-header {
         display: none;
     }
-
+    #operations-header-laptop {
+        display: block;
+        text-align: center;
+        font-size: 1.7rem;
+    }
     #hero-outer {
         height: 750px;
     }
 
     #hero-img-about {
         margin-top: 3rem;
+        height: 130%;
     }
     #hero-img {
-        height: 150%;
+        height: 160%;
+        margin-top: 10rem;
     }
+    #hero-img-operations {
+        background-image: url(../images/mission-control.jpg);
+        height: 90%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        z-index: -1;
+        top: 0;
+        margin-top: 8vh;
+        }
     #about-header {
         display: none;
     }
-    #laptop-header {
+    /* #laptop-header {
         display: block;
         color: #ccc;
         text-align: center;
@@ -714,13 +738,13 @@ li {
         padding-bottom: 0rem;
         margin-bottom: -8rem;
         margin-top: 8rem;
-    }
+    } */
     #operations-header {
         display: none;
     }
     #pics {
         column-count: 4;
-        margin-top: -22rem;
+        margin-top: -34rem;
         margin-bottom: 4rem;
     }
 
@@ -755,34 +779,63 @@ li {
         height: 21rem;
         width: 21rem;
     }
-
+    #discovery {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+    }
     #ring-nebula {
         position: relative;
         height: 21rem;
         width: 21rem;
     }
-    #saturn5 {
+    /* #saturn5 {
         position: relative;
         height: 21rem;
         width: 21rem;
-    }
+    } */
     #pillar-jets {
+        display: none;
         position: relative;
         height: 21rem;
         width: 21rem;
     }
-
+    #flex-discovery {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+        border-radius: 10%;
+    }
+    #operations-flex-footer-img {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+        border-radius: 10%;
+    }
+    #hubble-launch {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+        border-radius: 10%;
+    }
+    #hubble-maintenance {
+        position: relative;
+        height: 21rem;
+        width: 21rem;
+        border-radius: 10%;
+    }
     .social-media i {
         color: #ccc;
         font-size: 1.7rem;
         padding: .2rem;
+        margin-top: -.5rem;
     }
 
-    .flex-container {
+    .flex-container, .flex-container-operations {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0);
         padding: 2rem;
         justify-content: center;
     }
@@ -825,10 +878,15 @@ li {
         border-radius: 10%;
         margin: .25rem;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.2);
-        
+        background-color: rgba(0, 0, 0, 0.8);
     }
-
+    .flex-item-operations {
+        width: 48%;
+        border-radius: 10%;
+        margin: .25rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
     .back-to-top {
         color: #ccc;
         font-size: 90%;
@@ -846,12 +904,12 @@ li {
         margin-top: -.5rem;
     }
 
-    .social-media>li {
+    .social-media > li {
         margin-top: .5rem;
     }
 
     #footer {
-        font-size: 85%;
+        font-size: 95%;
         text-decoration: none;
         font-family: sans-serif;
         border-radius: 5rem;
@@ -859,25 +917,28 @@ li {
         z-index: 5;
     }
 
-    footer>p {
-        font-size: 1.1rem;
+    footer > p {
+        font-size: .9rem;
         padding-bottom: .6rem;
     }
 
     .about-scroll-style {
-        margin-top: 8rem;
+        margin-top: 2rem;
         margin-bottom: -1rem;
         /* line-height: 1.5rem; */
     }
 .operations-style {
-    margin-top: 13rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
 }
     .home-scroll-style {
         font-size: 1.2rem;
-        margin-top: 8rem;
+        margin-top: 2rem;
         line-height: 1.5rem;
     }
-
+    #operations-first-paragraph {
+        font-size: 1.2rem;
+    }
     .home-scroll-style>p {
         font-size: 1.2rem;
     }
@@ -886,7 +947,19 @@ li {
         margin-bottom: 2rem;
         ;
     }
-
+    .operations-style h4 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .operations-style > ul > li {
+        margin-left: 5.5rem;
+    }
+    .operations-style > ul > p {
+        font-size: 1.1rem;
+        padding: 1.5rem 5rem;
+        text-align: justify;
+    }
     #vid {
         margin-bottom: 8rem;
         margin-top: 4rem;

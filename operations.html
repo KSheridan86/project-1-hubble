@@ -32,16 +32,16 @@
   </header>
     <main>
       <!-- Hero image set to fixed position so the content flows over the top -->
-      <!-- <div id="hero-outer">
+      <div id="hero-outer">
         <div id="hero-img-operations"></div>
-      </div> -->
+      </div>
         <!-- Main content -->
         
-        <section aria-label="main-content" class="operations-style flex-container">
+        <section aria-label="main-content" class="operations-style">
           <h1 id="operations-header-laptop">Operating the Telescope</h1>
-          <img src="assets/images/discovery-launchpad.jpg" class="flex-item" id="saturn5" alt="picture of the saturn5 rocket sitting on the launch pad in cape canaveral">
+          <img src="assets/images/discovery-launchpad.jpg" id="discovery" alt="picture of the space shuttle discovery sitting on the launch pad in cape canaveral">
             <h1 id="operations-header">Operating the Telescope</h1>
-            <p id="operations-first-paragraph" class="flex-item">
+            <p id="operations-first-paragraph">
                 Behind Hubble’s captivating images and groundbreaking science is a team of people who control the telescope, 
                 ensure its health and safety, and innovate ways to keep it at top performance more than three decades after its launch. 
                 This group of engineers, scientists, and operators at NASA’s Goddard Space Flight Center work together to monitor Hubble 
@@ -49,7 +49,11 @@
                 They perform their work in specialized facilities that provide the tools and equipment needed to operate this 
                 great observatory and continue its legacy of success.
             </p>
-            <img src="assets/images/pillar-jets-wide.jpg" class="flex-item" alt="colorful picture of the ring nubula" id="pillar-jets">
+            <div class="flex-container-operations">
+              <div class="flex-item-operations"><img src="assets/images/hubble-launch.jpg" id="hubble-launch"></div>
+              <div class="flex-item-operations"><img src="assets/images/hubble-hero-2.jpg" id="operations-flex-footer-img"></div>
+            </div>
+            <img src="assets/images/pillar-jets-wide.jpg" alt="colorful picture of the ring nubula" id="pillar-jets">
             <h4>Hubble is operated by commands from the ground. Several spacecraft systems are in place to keep Hubble functioning smoothly.</h4>
             <ul>
                 <li>Communications Antennas</li>
@@ -68,6 +72,10 @@
                 <li>Pointing system</li>
                 <p> Hubble uses a combination of gyroscopes, reaction wheels and Fine Guidance Sensors to orient itself.</p>
             </ul>
+            <div class="flex-container-operations">
+              <div class="flex-item-operations"><img src="assets/images/discovery-launchpad.jpg" id="flex-discovery" alt="picture of the space shuttle discovery sitting on the launch pad in cape canaveral"></div>
+              <div class="flex-item-operations"><img src="assets/images/hubble-maintenance.png" id="hubble-maintenance"></div>
+            </div>
           </section>
         <img src="assets/images/hubble-hero-2.jpg" id="operations-footer-img">
     </main>
