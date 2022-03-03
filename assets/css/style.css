@@ -478,7 +478,7 @@ li {
 }
 
 /* media query for hamburger menu */
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .menu-button-container {
         display: flex;
     }
@@ -615,7 +615,7 @@ li {
 /* Small Tablets */
 @media screen and (min-width:719px) {
     html {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .home-scroll-style {
@@ -656,6 +656,22 @@ li {
 
     .operations-style {
         margin-top: 3rem;
+    }
+    footer {
+        height: 3.6rem;
+    }
+    footer>p {
+        font-size: .6rem;
+        margin-top: -1rem;
+    }
+    .social-media {
+        margin-bottom: 0rem;
+    }
+    .social-media i {
+        font-size: 1rem;
+    }
+    .back-to-top {
+        font-size: 55%;
     }
 }
 
