@@ -75,7 +75,6 @@ html {
 
 #logo:hover {
     color: #80b0bb;
-    box-shadow: #80b0bb;
 }
 
 .active {
@@ -336,10 +335,13 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.operations-style p {
+.operations-style > ul > li > p {
     font-size: 1rem;
+    font-weight: normal;
     margin: 1rem;
-    margin-top: -.25rem;
+    margin-top: .5rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-right: 1rem;
 }
 
 .operations-style li {
@@ -351,10 +353,10 @@ p {
     margin-top: 0rem;
 }
 
-.operations-style>ul>p {
+/* .operations-style>ul>p {
     background-color: rgba(0, 0, 0, 0.0);
     font-size: 1rem;
-}
+} */
 
 .operations-style>ul>li {
     background-color: rgba(0, 0, 0, 0.0);
@@ -372,6 +374,7 @@ p {
 .operations-style>ul {
     margin: 0rem;
     background-color: rgba(0, 0, 0, 0.8);
+    list-style-type: none;
 }
 
 li~p {
@@ -813,12 +816,12 @@ li {
     }
 
     .operations-style>ul>li {
-        margin-left: 5.5rem;
+        margin-left: 4rem;
     }
 
-    .operations-style>ul>p {
+    .operations-style>ul>li>p {
         font-size: 1.1rem;
-        padding: 1.5rem 5rem;
+        padding: 1.5rem 4rem 1.5rem 1.5rem;
         text-align: justify;
     }
 
