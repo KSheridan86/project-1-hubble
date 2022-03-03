@@ -94,7 +94,7 @@ html {
     position: sticky;
     top: 0;
     z-index: 10;
-    margin-top: .2rem;
+    /*margin-top: .2rem;*/
 }
 
 .menu {
@@ -646,7 +646,7 @@ li {
 
     #hero-img {
         height: 28rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
     #hero-img-about {
@@ -657,19 +657,24 @@ li {
     .operations-style {
         margin-top: 3rem;
     }
+
     footer {
         height: 3.6rem;
     }
+
     footer>p {
         font-size: .6rem;
         margin-top: -1rem;
     }
+
     .social-media {
         margin-bottom: 0rem;
     }
+
     .social-media i {
         font-size: 1rem;
     }
+
     .back-to-top {
         font-size: 55%;
     }
