@@ -348,7 +348,7 @@ p {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     margin-top: 0rem;
 }
 
@@ -669,9 +669,9 @@ li {
     }
 
     .menu {
-        padding-left: 27rem;
+        /* padding-left: 27rem; */
         background-color: black;
-        width: 100%;
+        /* width: 100%; */
     }
 
     #hamburger-menu {
@@ -857,11 +857,11 @@ li {
     }
 
     .flex-container :nth-child(4) {
-        order: -6;
+        order: -5;
     }
 
     .flex-container :nth-child(5) {
-        order: -5;
+        order: -6;
     }
 
     .flex-container :nth-child(6) {
@@ -877,7 +877,7 @@ li {
     }
 
     .flex-item {
-        width: 45%;
+        width: 30%;
         position: relative;
         border: 1px solid #80b0bb;
         border-radius: 10%;
@@ -950,10 +950,12 @@ li {
 
     #operations-first-paragraph {
         font-size: 1.2rem;
+        padding: 1rem 5rem;
     }
 
     .home-scroll-style>p {
         font-size: 1.2rem;
+        padding: 1rem 5rem;
     }
 
     .home-scroll-style>h1 {
@@ -965,6 +967,7 @@ li {
         font-size: 1.2rem;
         text-align: center;
         margin-bottom: 1.5rem;
+        padding: 1.5rem 5rem;
     }
 
     .operations-style>ul>li {
