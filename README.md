@@ -69,7 +69,7 @@ Testing was done in a number of ways.
  #### Manual Testing
  
  This was undertaken by Myself, my wife and a number of friends aswell as the Code Institute slack channels.
- We tested all links to confirm they worked and opened on a new blank page. Multiple devices were used to confirm the site worked as it should and it displayed correctly across different screen sizes and browsers.
+ We tested all links to confirm they worked and opened on a new blank page and went where they were supposed to. Multiple devices were used to confirm the site worked as it should and it displayed correctly across different screen sizes and browsers.
 
 
  #### Online Testing
@@ -92,12 +92,12 @@ This website allowed me to select a number of devices with different size screen
 
 Screenshots of all these results can be found below.
 
-![CSS]()
-![Home]()
-![About]()
-![Operations]()
-![Gallery]()
-![Responsivity]()
+[CSS](./assets/docs/css.png)
+[Home](./assets/docs/home.png)
+[About](./assets/docs/about.png)
+[Operations](./assets/docs/operations.png)
+[Gallery](./assets/docs/gallery.png)
+[Responsivity]()
 
 [Back to the Top](#three-decades-of-discovery)
 
