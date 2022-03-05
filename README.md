@@ -1,10 +1,10 @@
-> # Three Decades of Discovery
+# Three Decades of Discovery
 ## The Hubble Space Telescope
 
 
-Live site available here: [Three Decades of Discovery](https://ksheridan86.github.io/project-1-hubble/index.html)
+> Live site available here: [Three Decades of Discovery](https://ksheridan86.github.io/project-1-hubble/index.html)
 
-### Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Theme](#theme)
@@ -19,16 +19,17 @@ Live site available here: [Three Decades of Discovery](https://ksheridan86.githu
 ------
 
 ## Description
-This project was designed to give a user who has never heard of the Hubble Space Telescope a brief understanding of what it is, what it does, it's history and contributions to science.
+This project was designed to give information and provide education on the Hubble Space Telescope. The information provided is easily understandable and will give a user who is familiar with the telescope aswell as a user who has never heard of the telescope a brief understanding of what it is, what it does, it's history and contributions to science.
 
 It will also include multiple examples of Hubbles imagery.
 
 ------
 ## Theme 
 
-I wanted the theme of this site to closely align with the content.
+The theme choosen for this site was Space and Sci-Fi in general, the main question i considered at every step was:
 
-Minimal, Clean, Slick, Professional.
+`Is it
+Minimal, Clean, Slick, Professional?`
 
 
 Therefore i chose only a few simple colors to highlight the quality of the images themselves.
@@ -38,6 +39,9 @@ These were:
 - #CCC Off White/Light Grey
 - #80b0bb Light blue/ Faintly Steel.
 
+The images contained these colors but were also rich in various hues of yellow, orange, red, green and blue.
+By keeping the color scheme simple the colors in the images get to take center stage.
+
 I then implemented a scroll style which would maximize the impact of the images.
 By giving the images a position of "sticky" in the css file they would stick to the top of the page and let the following text roll over the top.
 To enhance this effect i gave the text sections an opaque background so even as they were covering the image you could still see it holding firm on the top of the page.
@@ -46,17 +50,40 @@ To enhance this effect i gave the text sections an opaque background so even as 
 
 ## Features
 
-#### Navigation menu
-#### Logo
-#### Hero Image
+> ### Navigation menu
+On mobile and tablet devices the main navigation menu is housed inside a hamburger menu.
+This opens up with a little animation and reveals links to all four pages.
+On laptops or bigger devices the menu is spread across the header bar which also contains the logo.
 
-#### Home Page
+> ### Logo
+The logo is simply the name of the telescope in an off white color and shown in the iconic NASA font. This is also a link to the Home page which can be easily accessed from anywhere within the site.
 
-#### About Page
+> ### Hero Image
+The Hero image changes on each of the first three pages, the gallery page has enough imagery so as not to warrant one.
+Each image was chosen with regard to the content on each page.
 
-#### Operations Page
+The Home page opens with a shot of planet Earth our one and only home in this vast galactic neighbourhood.
 
-#### Image Gallery
+The About page continues with this idea seen on the home page but incorporates a visual of Hubble in orbit around earth.
+
+The Operations page shows the Space Shuttle Discovery sitting on the launchpad at Kennedy Space Center, Florida. It was this shuttle that launched Hubble into orbit and performed multiple servicing missions to the telescope.   
+
+> ### Footer
+The Footer includes all social media links which link to Hubbles official social media accounts.
+
+On top of the footer you will find an attached "Back to Top" button, the text inside this button relays the current page title and allows quick navigation to the top of the page and ultimately the navigation menu.
+Because of the usefulness of this button the footer is fixed to the bottom of the viewport and will stay in place as you scroll around the page.
+
+> ### Home Page
+This page gives a brief synopsis of the telescope and it's contributions to the scientific community.
+Here you will also find a video packed with wonderful imagery from the solar system and beyond.
+> ### About Page
+This page summarises the story of Hubble, from who it was named for, when it was launched to it's continuing contributions.
+> ### Operations Page
+Here you will find information on who operates the telescope and information on the systems onboard that allow it's mission to be such a success.
+
+> ### Image Gallery
+This page holds numerous high quality images taken by the Hubble telescope. 
 
 [Back to the Top](#three-decades-of-discovery)
 
@@ -66,13 +93,13 @@ To enhance this effect i gave the text sections an opaque background so even as 
 
 Testing was done in a number of ways.
 
- #### Manual Testing
+ > #### Manual Testing
  
- This was undertaken by Myself, my wife and a number of friends aswell as the Code Institute slack channels.
+ This was undertaken by Myself, my wife and a number of friends, aswell as the Code Institute slack channels.
  We tested all links to confirm they worked and opened on a new blank page and went where they were supposed to. Multiple devices were used to confirm the site worked as it should and it displayed correctly across different screen sizes and browsers.
 
 
- #### Online Testing
+ > #### Online Testing
 
  All code was run through a validator and returned zero errors.
  These validator sites were:
@@ -80,12 +107,6 @@ Testing was done in a number of ways.
 - [Jigsaw css validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
 - [W3C Validator](https://validator.w3.org/)
 
-
-#### Responsivity Testing
-
-This website allowed me to select a number of devices with different size screens and viewports and see how my website looked on each of them.
-
-- [Responsive Checker](https://responsivechecker.net/responsive)
 
 
 
@@ -97,7 +118,14 @@ Screenshots of all these results can be found below.
 [About](./assets/docs/about.png)
 [Operations](./assets/docs/operations.png)
 [Gallery](./assets/docs/gallery.png)
-[Responsivity]()
+
+> #### Responsivity Testing
+
+
+This website allowed me to select a number of devices with different size screens and viewports and see how my website looked on each of them.
+
+- [Responsive Checker](https://responsivechecker.net/responsive)
+
 
 [Back to the Top](#three-decades-of-discovery)
 
@@ -146,7 +174,7 @@ The procedure for doing this is very straight forward.
 
 ## Credits
 
-The code for the Hamburger menu used at the top of the page was copied from the first example on the website below and then redesigned for my particular needs.
+The code for the Hamburger menu used at the top of the page was taken from the first example on the website below and then redesigned for my particular needs.
 
 - [Hamburger menu code](https://alvarotrigo.com/blog/hamburger-menu-css/)
 
@@ -161,7 +189,7 @@ These being:
 
 These sites allow free use of their content for education purposes and even commercial purposes once the correct credit is given.
 
-    "Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work NASA and STScI be given appropriate acknowledgement."
+`"Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work NASA and STScI be given appropriate acknowledgement."`
 
 
 
