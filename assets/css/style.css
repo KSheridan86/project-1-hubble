@@ -629,6 +629,10 @@ li {
         margin-top: 0rem;
     }
 
+    #hero-img-operations {
+        height: 100%;
+    }
+
     /* text & paragraph size and scroll style */
     .home-scroll-style {
         margin-top: 5rem;
