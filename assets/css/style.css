@@ -670,7 +670,7 @@ li {
     }
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1023px) {
     html {
         font-size: 20px;
     }
@@ -904,15 +904,47 @@ li {
         height: 750px;
     }
 
-    #hero-img-about {
+    /* #hero-img-about {
         margin-top: 3rem;
         height: 130%;
-    }
+    } */
+
 
     #hero-img {
+        background-image: url(../images/earth-hubble-desktop.jpg);
+        height: 800px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        margin-top: 10vh;
+    }
+
+
+
+
+    #hero-img-about {
+        background-image: url(../images/about-2-desktop.jpg);
+        height: 700px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        margin-top: 10vh;
+    }
+
+
+
+    /* #hero-img {
         height: 180%;
         margin-top: 10rem;
-    }
+    } */
 
     #hero-img-operations {
         background-image: url(../images/mission-control.jpg);
