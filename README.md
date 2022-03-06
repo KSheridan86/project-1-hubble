@@ -108,9 +108,6 @@ Testing was done in a number of ways.
 - [W3C Validator](https://validator.w3.org/)
 
 
-
-
-
 Screenshots of all these results can be found below.
 
 [CSS](./assets/docs/css.png)
@@ -125,6 +122,10 @@ Screenshots of all these results can be found below.
 This website allowed me to select a number of devices with different size screens and viewports and see how my website looked on each of them.
 
 - [Responsive Checker](https://responsivechecker.net/responsive)
+
+> #### Google Lighthouse
+
+![Mobile Results](./assets/docs/lighthouse-mobile-400px.png) ![Desktop Results](./assets/docs/lighthouse-desktop-400px.png)
 
 
 [Back to the Top](#three-decades-of-discovery)
