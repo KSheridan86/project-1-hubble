@@ -26,32 +26,32 @@ It will also include multiple examples of Hubbles imagery.
 ------
 ## Theme 
 
-The theme choosen for this site was Space and Sci-Fi in general, the main question i considered at every step was:
+The theme choosen for this site was Space and Sci-Fi in general, the main question I considered at every step was:
 
 `Is it
 Minimal, Clean, Slick, Professional?`
 
 
-Therefore i chose only a few simple colors to highlight the quality of the images themselves.
+Therefore I chose only a few simple colors to highlight the quality of the images themselves.
 
 These were:
 - #000 Black
-- #CCC Off White/Light Grey
-- #80b0bb Light blue/ Faintly Steel.
+- #CCC Off White
+- #80b0bb Light blue
 
 The images contained these colors but were also rich in various hues of yellow, orange, red, green and blue.
 By keeping the color scheme simple the colors in the images get to take center stage.
 
 I then implemented a scroll style which would maximize the impact of the images.
 By giving the images a position of "sticky" in the css file they would stick to the top of the page and let the following text roll over the top.
-To enhance this effect i gave the text sections an opaque background so even as they were covering the image you could still see it holding firm on the top of the page.
+To enhance this effect I gave the text sections an opaque background so even as they were covering the image you could still see it holding firm on the top of the page.
 
 ---
 
 ## Features
 
 > ### Navigation menu
-On mobile and tablet devices the main navigation menu is housed inside a hamburger menu.
+On mobile and tablet devices the main navigation menu is housed inside a hamburger menu. (See Credits below...[credits](#credits))
 This opens up with a little animation and reveals links to all four pages.
 On laptops or bigger devices the menu is spread across the header bar which also contains the logo.
 
@@ -95,7 +95,7 @@ Testing was done in a number of ways.
 
  > #### Manual Testing
  
- This was undertaken by Myself, my wife and a number of friends, aswell as the Code Institute slack channels.
+ This was undertaken by myself, my wife and a number of friends, aswell as the Code Institute slack channels.
  We tested all links to confirm they worked and opened on a new blank page and went where they were supposed to. Multiple devices were used to confirm the site worked as it should and it displayed correctly across different screen sizes and browsers.
 
 
@@ -166,7 +166,7 @@ The procedure for doing this is very straight forward.
 - Inside the repository click on the button marked "Settings".
 - In the side bar on the left click on the button marked "Pages".
 - Under the source title you have two drop down menus, make sure the first is set to "Main" and the second to "Root" and click "Save".
-- Within a couple of minutes the site was live and i received a notification indicating the url.
+- Within a couple of minutes the site was live and I received a notification indicating the url.
 
 
 [Back to the Top](#three-decades-of-discovery)
