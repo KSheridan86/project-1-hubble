@@ -160,6 +160,9 @@ This website allowed me to select a number of devices with different size screen
 
 ## Deployment
 
+The steps below will outline how to deploy, clone or fork this repository.
+These steps assume that you have a GitHub/GitPod account, if not please start [here](https://www.github.com) by creating a GitHub account and installing the GitPod extension.
+
 This project was deployed using GitHub pages.
 The procedure for doing this is very straight forward.
 
@@ -168,6 +171,26 @@ The procedure for doing this is very straight forward.
 - Under the source title you have two drop down menus, make sure the first is set to "Main" and the second to "Root" and click "Save".
 - Within a couple of minutes the site was live and I received a notification indicating the url.
 
+### Cloning
+
+To clone this repository just follow the steps below.
+
+- Navigate to the Repositories section in my GitHub portfolio.
+- Click on the Repository you want to clone (project-1-hubble).
+- Click the button labeled "Code" and copy the link shown.
+- Open a new folder or your prefered location in your GitPod workspace.
+- Type "git clone" into the terminal, paste the link and click Enter.
+- Job done, you have created a clone of this repository.
+
+### Fork this repository
+
+To fork this repository just follow the steps below.
+
+- Navigate to the repository you wish to fork.
+- On the top right of the page click on the button marked "fork".
+- The repository has now been cloned and you can find it in your account.
+
+ 
 
 [Back to the Top](#three-decades-of-discovery)
 
