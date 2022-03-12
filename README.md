@@ -4,6 +4,9 @@
 
 > Live site available here: [Three Decades of Discovery](https://ksheridan86.github.io/project-1-hubble/index.html)
 
+![responsive-example](./assets/docs/responsive-design.png)
+
+
 ## Table of Contents
 
 - [Description](#description)
@@ -50,15 +53,15 @@ To enhance this effect I gave the text sections an opaque background so even as 
 
 ## Features
 
-> ### Navigation menu
+> ### Navigation menu [screenshot](./assets/docs/menu.png)
 On mobile and tablet devices the main navigation menu is housed inside a hamburger menu. (See Credits below...[credits](#credits))
 This opens up with a little animation and reveals links to all four pages.
 On laptops or bigger devices the menu is spread across the header bar which also contains the logo.
 
-> ### Logo
+> ### Logo [screenshot](./assets/docs/logo.png)
 The logo is simply the name of the telescope in an off white color and shown in the iconic NASA font. This is also a link to the Home page which can be easily accessed from anywhere within the site.
 
-> ### Hero Image
+> ### Hero Image [screenshot](./assets/docs/Home-page.png)
 The Hero image changes on each of the first three pages, the gallery page has enough imagery so as not to warrant one.
 Each image was chosen with regard to the content on each page.
 
@@ -68,21 +71,21 @@ The About page continues with this idea seen on the home page but incorporates a
 
 The Operations page shows the Space Shuttle Discovery sitting on the launchpad at Kennedy Space Center, Florida. It was this shuttle that launched Hubble into orbit and performed multiple servicing missions to the telescope.   
 
-> ### Footer
+> ### Footer [screenshot](./assets/docs/footer.png)
 The Footer includes all social media links which link to Hubbles official social media accounts.
 
 On top of the footer you will find an attached "Back to Top" button, the text inside this button relays the current page title and allows quick navigation to the top of the page and ultimately the navigation menu.
 Because of the usefulness of this button the footer is fixed to the bottom of the viewport and will stay in place as you scroll around the page.
 
-> ### Home Page
+> ### Home Page  [screenshot](./assets/docs/Home-page.png)
 This page gives a brief synopsis of the telescope and it's contributions to the scientific community.
 Here you will also find a video packed with wonderful imagery from the solar system and beyond.
-> ### About Page
+> ### About Page [screenshot](./assets/docs/about-page.png)
 This page summarises the story of Hubble, from who it was named for, when it was launched to it's continuing contributions.
-> ### Operations Page
+> ### Operations Page [screenshot](./assets/docs/operations-page.png)
 Here you will find information on who operates the telescope and information on the systems onboard that allow it's mission to be such a success.
 
-> ### Image Gallery
+> ### Image Gallery [screenshot](./assets/docs/gallery-page.png)
 This page holds numerous high quality images taken by the Hubble telescope. 
 
 [Back to the Top](#three-decades-of-discovery)
